@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Ensure you have a .env file in your frontend folder with: VITE_API_URL=http://localhost:5000/api
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'http://13.127.213.37:5000/api';
 
 function App() {
   const [posts, setPosts] = useState([]);
